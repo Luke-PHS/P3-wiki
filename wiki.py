@@ -61,7 +61,3 @@ start_page = wiki.page("Spider-Man (2018 video game)")
 target_page = wiki.page("Star Wars")
 path = wikipedia_game_solver(start_page, target_page)
 print(path)
-
-
-
-print(fetch_links (start_page.links))
